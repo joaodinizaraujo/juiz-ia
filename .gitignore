@@ -1,0 +1,4 @@
+.venv/
+.idea/
+flask_chat/.env
+__pycache__/
