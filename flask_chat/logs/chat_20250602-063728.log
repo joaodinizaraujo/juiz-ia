@@ -1,0 +1,16 @@
+[2025-06-02 06:37:28] [SISTEMA] === Início da Sessão 20250602-063728 ===
+[2025-06-02 06:37:39] [USUÁRIO] o que beatles?
+[2025-06-02 06:38:16] [USUÁRIO] o que é beatles?
+[2025-06-02 06:38:19] [GEMINI] Os Beatles foram uma banda de rock formada em Liverpool, Inglaterra, em 1960. Composta por John Lennon, Paul McCartney, George Harrison e Ringo Starr, o grupo se tornou um fenômeno global e é amplamente considerado uma das maiores e mais influentes bandas de todos os tempos.
+[2025-06-02 06:38:19] [GEMINI JUIZ] ✅ Aprovado. A resposta está correta, clara e concisa.
+[2025-06-02 06:38:47] [USUÁRIO] paul mccartney morreu?
+[2025-06-02 06:38:49] [GEMINI] Não há informações no texto sobre a morte de Paul McCartney.
+[2025-06-02 06:38:49] [GEMINI JUIZ] ✅ Aprovado. A resposta está correta e concisa, e não há informações no texto fornecido sobre a morte de Paul McCartney.
+[2025-06-02 06:39:21] [USUÁRIO] john lennon namorou?
+[2025-06-02 06:39:24] [GEMINI] O texto não menciona se John Lennon teve algum relacionamento amoroso.
+[2025-06-02 06:39:24] [GEMINI JUIZ] ⚠️ Reprovado.
+
+O texto menciona que John Lennon teve um relacionamento amoroso com Paul McCartney.
+
+Sugestão de resposta:
+"Sim, o texto menciona que John Lennon teve um rápido relacionamento amoroso com Paul McCartney no final de 1966."

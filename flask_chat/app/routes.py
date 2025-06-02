@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, session
 from datetime import datetime
 from app import socketio
 import os
-from app.gemini.modelo import responder_pergunta
+from app.gemini.modelo import responder_pergunta, mandar_pro_tribunal
 
 bp = Blueprint("chat", __name__)
 
@@ -53,10 +53,13 @@ def usuario():
             if msg.strip().endswith("?"):
                 resposta = responder_pergunta(msg)
 
-                # seu código de juízes de IA aqui 
+                resposta_tribunal = mandar_pro_tribunal(msg, resposta)
 
                 # após verificar se ocorreu alucinação, gravar a resposta no log da sessão
                 registrar_log("GEMINI", resposta, session["chat_id"])
+
+                # após verificar se ocorreu alucinação, gravar a resposta no log da sessão
+                registrar_log("GEMINI JUIZ", resposta_tribunal, session["chat_id"])
         elif "encerrar" in request.form:
             registrar_log("SISTEMA", f"=== Fim da Sessão {session['chat_id']} ===", session["chat_id"])
             session.pop("chat_id", None)
